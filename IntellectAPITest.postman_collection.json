@@ -1,0 +1,259 @@
+{
+	"id": "d338f695-9804-3437-1bbf-016c4a137d7a",
+	"name": "IntellectAPITest",
+	"description": "",
+	"order": [
+		"d8d3fa07-d0e8-1e3a-6e13-bb642b90171b",
+		"3595d3da-8495-4f13-f894-66a7c07c3a96",
+		"3f807481-fc8d-2705-befd-a0acf3312642",
+		"1dbb5e1c-78f5-9549-0467-0f7f84dcd43c",
+		"25657fba-1029-124a-1b5f-437407a317dd",
+		"9a889a47-b02e-2887-9a04-3347b13fe75a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1578387782675,
+	"owner": "9973773",
+	"public": false,
+	"requests": [
+		{
+			"id": "1dbb5e1c-78f5-9549-0467-0f7f84dcd43c",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:7001/stocks/NYSE:NEW/price?start=2019-01-01&end=2019-01-03",
+			"queryParams": [
+				{
+					"key": "start",
+					"value": "2019-01-01",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "end",
+					"value": "2019-01-03",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:7001/stocks/NYSE:NEW/price?start=2019-01-01&end=2019-01-03",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578388016077,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "25657fba-1029-124a-1b5f-437407a317dd",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:7001/erase",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:7001/erase",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578388040456,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3595d3da-8495-4f13-f894-66a7c07c3a96",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:7001/trades/users/5e142d394a2bbc28b48cc65d",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:7001/trades/users/5e142d394a2bbc28b48cc65d",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578387971677,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3f807481-fc8d-2705-befd-a0acf3312642",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:7001/stocks/NYSE:NEW/trades?type=sell&start=2019-01-01&end=2019-01-03",
+			"queryParams": [
+				{
+					"key": "type",
+					"value": "sell",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "start",
+					"value": "2019-01-01",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "end",
+					"value": "2019-01-03",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:7001/stocks/NYSE:NEW/trades?type=sell&start=2019-01-01&end=2019-01-03",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578387988060,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9a889a47-b02e-2887-9a04-3347b13fe75a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:7001/trades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": [
+				{
+					"key": "id",
+					"value": "7",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "buy",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "username",
+					"value": "joseva",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "symbol",
+					"value": "NYSE:A",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shares",
+					"value": "20",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "price",
+					"value": "158",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "startDate",
+					"value": "2019-01-01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endDate",
+					"value": "2019-01-05",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "localhost:7001/trades",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578388118454,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d8d3fa07-d0e8-1e3a-6e13-bb642b90171b",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:7001/trades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d338f695-9804-3437-1bbf-016c4a137d7a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:7001/trades",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1578387864477,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
