@@ -1,0 +1,10 @@
+{
+    "port": "7001",
+    "mongodb": {
+        "host":"127.0.0.1",
+        "port": "27017",
+        "database": "myDatabase",
+        "username": "myUserAdmin",
+        "password": "abc123"
+    }
+}
